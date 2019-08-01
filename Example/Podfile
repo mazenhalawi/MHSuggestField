@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MHSuggestField_Example' do
+  pod 'MHSuggestField', :path => '../'
+
+  target 'MHSuggestField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
