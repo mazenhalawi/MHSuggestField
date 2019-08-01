@@ -1,0 +1,6 @@
+framework module MHSuggestField {
+  umbrella header "MHSuggestField-umbrella.h"
+
+  export *
+  module * { export * }
+}

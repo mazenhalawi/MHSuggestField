@@ -1,0 +1,16 @@
+PODS:
+  - MHSuggestField (0.1.0)
+
+DEPENDENCIES:
+  - MHSuggestField (from `../`)
+
+EXTERNAL SOURCES:
+  MHSuggestField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHSuggestField: 00d3e2df1259de9bc3ceea8dee3e09f9dd22d85f
+
+PODFILE CHECKSUM: 048734939fb7bfb77bb359ba7aa27d8f4a006759
+
+COCOAPODS: 1.5.3
