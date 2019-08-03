@@ -1,0 +1,6 @@
+framework module Pods_SuggestFieldSample {
+  umbrella header "Pods-SuggestFieldSample-umbrella.h"
+
+  export *
+  module * { export * }
+}

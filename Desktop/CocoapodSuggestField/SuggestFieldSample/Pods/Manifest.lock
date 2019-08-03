@@ -1,0 +1,16 @@
+PODS:
+  - MHSuggestField (0.1.0)
+
+DEPENDENCIES:
+  - MHSuggestField (from `../MHSuggestField`)
+
+EXTERNAL SOURCES:
+  MHSuggestField:
+    :path: "../MHSuggestField"
+
+SPEC CHECKSUMS:
+  MHSuggestField: ec1f411030c9ed8f37a17ef9a62f84bab82427d8
+
+PODFILE CHECKSUM: f41cc51d0cd53ef4144bf34d70da21a5b0e8c1d9
+
+COCOAPODS: 1.7.5
