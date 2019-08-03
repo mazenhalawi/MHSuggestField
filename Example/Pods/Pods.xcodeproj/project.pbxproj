@@ -10,8 +10,9 @@
 		1ED407015EBBA3AF3F4104CB0F798D92 /* Pods-MHSuggestField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E652DF3CE2E45FFBF920819E6DA4FEDC /* Pods-MHSuggestField_Tests-dummy.m */; };
 		47C9D159E0F1ADCF3666D299442F2482 /* Pods-MHSuggestField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED0691E13F311FDA72E21C5B97EACD1D /* Pods-MHSuggestField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5AED50263BC3E8D3C45AD5FC5B5179F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9ECFCD3AE8D20CE9D6737905823D0E65 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1BD780A286E663250D6F176549823A /* ReplaceMe.swift */; };
 		A58D6B333C419D7DB14EE9B0EC6EC018 /* Pods-MHSuggestField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DC8027C44420DF05984FB390B244BB /* Pods-MHSuggestField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA85904122F5DAF9000B2DF8 /* SuggestFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85903F22F5DAF9000B2DF8 /* SuggestFieldDelegate.swift */; };
+		BA85904222F5DAF9000B2DF8 /* SuggestField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA85904022F5DAF9000B2DF8 /* SuggestField.swift */; };
 		BF7881904CFC1608163E129F977AD803 /* MHSuggestField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B179ED5775628BF7BD35EA469FDC5748 /* MHSuggestField-dummy.m */; };
 		D0318418BAC4A14A7050F20AB233AB8E /* MHSuggestField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24342DEA96BC19431BAC9C254EE2E3AC /* MHSuggestField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1BADE311E2110897F26F219BF38CE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -61,10 +62,11 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAD61CCFD1E52A91FD8F60530DFFB20A /* Pods-MHSuggestField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHSuggestField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B179ED5775628BF7BD35EA469FDC5748 /* MHSuggestField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MHSuggestField-dummy.m"; sourceTree = "<group>"; };
+		BA85903F22F5DAF9000B2DF8 /* SuggestFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuggestFieldDelegate.swift; path = MHSuggestField/Classes/SuggestFieldDelegate.swift; sourceTree = "<group>"; };
+		BA85904022F5DAF9000B2DF8 /* SuggestField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SuggestField.swift; path = MHSuggestField/Classes/SuggestField.swift; sourceTree = "<group>"; };
 		BD606EE40D638C8C72D585A656B8D89A /* Pods-MHSuggestField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHSuggestField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C233080057823BC1B568AAC75F99654E /* Pods-MHSuggestField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MHSuggestField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D07952DF53907F260C9969BFB3EEF900 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF1BD780A286E663250D6F176549823A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MHSuggestField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E227F51AB39164F7B6755E6EAC73DB0D /* Pods-MHSuggestField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MHSuggestField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E27BB9829C812E0D37891D4F55A03CA3 /* Pods_MHSuggestField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHSuggestField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E652DF3CE2E45FFBF920819E6DA4FEDC /* Pods-MHSuggestField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MHSuggestField_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -201,7 +203,8 @@
 		998E178986F31357C04435D2C0D15073 /* MHSuggestField */ = {
 			isa = PBXGroup;
 			children = (
-				DF1BD780A286E663250D6F176549823A /* ReplaceMe.swift */,
+				BA85904022F5DAF9000B2DF8 /* SuggestField.swift */,
+				BA85903F22F5DAF9000B2DF8 /* SuggestFieldDelegate.swift */,
 				FD2B018B6E3033D61B06BB1C8F34B00F /* Pod */,
 				208DE878F9C1155112CCB76A9A0A7E8C /* Support Files */,
 			);
@@ -387,8 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA85904122F5DAF9000B2DF8 /* SuggestFieldDelegate.swift in Sources */,
 				BF7881904CFC1608163E129F977AD803 /* MHSuggestField-dummy.m in Sources */,
-				9ECFCD3AE8D20CE9D6737905823D0E65 /* ReplaceMe.swift in Sources */,
+				BA85904222F5DAF9000B2DF8 /* SuggestField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

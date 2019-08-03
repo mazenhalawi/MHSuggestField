@@ -61,7 +61,7 @@ public class SuggestField: UITextField {
             tblChoices.separatorColor = separatorColor
             tblChoices.separatorInset.left = leftSeparatorInset
             tblChoices.separatorInset.right = rightSeparatorInset
-            tblChoices.rowHeight = UITableView.automaticDimension
+            tblChoices.rowHeight = UITableViewAutomaticDimension
             
             tblChoices.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
             tblChoices.dataSource = self
